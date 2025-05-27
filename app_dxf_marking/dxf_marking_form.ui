@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>963</width>
+    <height>692</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Smart clothing architecture simulator</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="clotheListWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>161</width>
+      <height>401</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="partListWidget">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>161</width>
+      <height>401</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>310</y>
+      <width>331</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::HLine</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonLoad1">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonLoad2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>320</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="segmentList1">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>40</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="segmentList2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>350</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addSegment1">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>70</y>
+      <width>61</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+Segment</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addSegment2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>380</y>
+      <width>61</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+Segment</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loadJoint">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>420</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Joint &gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="storeJoint">
+    <property name="geometry">
+     <rect>
+      <x>213</x>
+      <y>420</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt; Joint</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="jointList">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>421</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addJoint">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>420</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+ Joint</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="removeJoint">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>420</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>- Joint</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="removeSegment1">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>100</y>
+      <width>61</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-Segment</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="removeSegment2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>410</y>
+      <width>61</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-Segment</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="invertJoint">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>420</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Inv</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>963</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTest">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew_project"/>
+    <addaction name="actionOpen_project"/>
+    <addaction name="actionSave_project"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuData_processing">
+    <property name="title">
+     <string>Clothing items</string>
+    </property>
+    <addaction name="actionLoad_DXF_file"/>
+    <addaction name="actionAdd_new_file"/>
+    <addaction name="actionRename_file"/>
+    <addaction name="actionDelete_file"/>
+    <addaction name="actionMove_up_file"/>
+    <addaction name="actionMove_down_file"/>
+   </widget>
+   <widget class="QMenu" name="menuParts">
+    <property name="title">
+     <string>Parts</string>
+    </property>
+    <addaction name="actionRename_part"/>
+    <addaction name="actionMove_part_up"/>
+    <addaction name="actionMove_part_down"/>
+    <addaction name="actionChange_parent_item"/>
+    <addaction name="actionDuplicate_part"/>
+    <addaction name="actionDelete_part"/>
+    <addaction name="actionInverse_part"/>
+   </widget>
+   <addaction name="menuTest"/>
+   <addaction name="menuData_processing"/>
+   <addaction name="menuParts"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen_project">
+   <property name="text">
+    <string>Open project</string>
+   </property>
+  </action>
+  <action name="actionSave_project">
+   <property name="text">
+    <string>Save project</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionLoad_DXF_file">
+   <property name="text">
+    <string>Load item from DXF file</string>
+   </property>
+  </action>
+  <action name="actionNew_project">
+   <property name="text">
+    <string>New project</string>
+   </property>
+  </action>
+  <action name="actionAdd_new_file">
+   <property name="text">
+    <string>Add new item +</string>
+   </property>
+  </action>
+  <action name="actionRename_file">
+   <property name="text">
+    <string>Rename item ~</string>
+   </property>
+  </action>
+  <action name="actionDelete_file">
+   <property name="text">
+    <string>Delete item -</string>
+   </property>
+  </action>
+  <action name="actionMove_up_file">
+   <property name="text">
+    <string>Move item up /\</string>
+   </property>
+  </action>
+  <action name="actionMove_down_file">
+   <property name="text">
+    <string>Move item down \/</string>
+   </property>
+  </action>
+  <action name="actionRename_part">
+   <property name="text">
+    <string>Rename part ~</string>
+   </property>
+  </action>
+  <action name="actionMove_part_up">
+   <property name="text">
+    <string>Move part up /\</string>
+   </property>
+  </action>
+  <action name="actionMove_part_down">
+   <property name="text">
+    <string>Move part down \/</string>
+   </property>
+  </action>
+  <action name="actionChange_parent_item">
+   <property name="text">
+    <string>Change parent item ?</string>
+   </property>
+  </action>
+  <action name="actionDuplicate_part">
+   <property name="text">
+    <string>Duplicate part x2</string>
+   </property>
+  </action>
+  <action name="actionDelete_part">
+   <property name="text">
+    <string>Delete part -</string>
+   </property>
+  </action>
+  <action name="actionInverse_part">
+   <property name="text">
+    <string>Inverse part &lt;--&gt;</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
