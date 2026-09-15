@@ -1,0 +1,45 @@
+{
+  "run_name": "extended_wire_segment_length_run_2026",
+  "tag": "tier2",
+  "tier": 2,
+  "seed": 20260913,
+  "id_base": 900000,
+  "patterns": [
+    "3.3.3.3.3.3",
+    "4.4.4.4",
+    "3.6.3.6"
+  ],
+  "wire_lengths_mm": [
+    240.0,
+    320.0,
+    480.0,
+    640.0
+  ],
+  "jumper_lengths_mm": [
+    10.0,
+    20.0,
+    40.0,
+    80.0,
+    160.0
+  ],
+  "clothing_designs": 17,
+  "sizes": [
+    "XXS",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL",
+    "4XL",
+    "5XL"
+  ],
+  "configurations_per_pattern": {
+    "3.3.3.3.3.3": 3400,
+    "4.4.4.4": 3400,
+    "3.6.3.6": 3400
+  },
+  "total_configurations": 10200,
+  "note": "Additive to the original 2023 run. Original configurations (IDs 1-44200, ./simulation/) and results (./results/) are untouched."
+}

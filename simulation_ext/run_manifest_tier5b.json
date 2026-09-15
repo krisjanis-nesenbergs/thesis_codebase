@@ -1,0 +1,73 @@
+{
+  "run_name": "extended_wire_segment_length_run_2026",
+  "tag": "tier5b",
+  "tier": 5,
+  "purpose": "Frontier bisection. Converts the largest-A-meeting-95% values from lower bounds (last passing grid point) into measurements at roughly 2% resolution, for all three finalist patterns at all five jumper lengths. Also settles whether 3.3.3.3.3.3 and 4.4.4.4 are tied, as the closed-form equivalence predicts, or whether the alternating winner in the selection table is real.",
+  "seed": 20260915,
+  "id_base": 990000,
+  "patterns": [
+    "3.3.3.3.3.3",
+    "4.4.4.4",
+    "3.6.3.6"
+  ],
+  "triples_mm": {
+    "3.3.3.3.3.3": [
+      [
+        46.0,
+        10.0
+      ],
+      [
+        54.0,
+        10.0
+      ]
+    ],
+    "4.4.4.4": [
+      [
+        24.0,
+        10.0
+      ],
+      [
+        28.0,
+        10.0
+      ]
+    ],
+    "3.6.3.6": [
+      [
+        13.0,
+        10.0
+      ],
+      [
+        16.0,
+        10.0
+      ],
+      [
+        28.0,
+        20.0
+      ],
+      [
+        33.0,
+        20.0
+      ]
+    ]
+  },
+  "is_full_cross_product": false,
+  "clothing_designs": 17,
+  "sizes": [
+    "XXS",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL",
+    "4XL",
+    "5XL"
+  ],
+  "configurations_per_pattern": {
+    "3.3.3.3.3.3": 340,
+    "4.4.4.4": 340,
+    "3.6.3.6": 680
+  },
+  "total_configurations": 1360
+}

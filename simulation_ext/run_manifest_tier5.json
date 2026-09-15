@@ -1,0 +1,129 @@
+{
+  "run_name": "extended_wire_segment_length_run_2026",
+  "tag": "tier5",
+  "tier": 5,
+  "purpose": "Frontier bisection. Converts the largest-A-meeting-95% values from lower bounds (last passing grid point) into measurements at roughly 2% resolution, for all three finalist patterns at all five jumper lengths. Also settles whether 3.3.3.3.3.3 and 4.4.4.4 are tied, as the closed-form equivalence predicts, or whether the alternating winner in the selection table is real.",
+  "seed": 20260915,
+  "id_base": 980000,
+  "patterns": [
+    "3.3.3.3.3.3",
+    "4.4.4.4",
+    "3.6.3.6"
+  ],
+  "triples_mm": {
+    "3.3.3.3.3.3": [
+      [
+        84.0,
+        20.0
+      ],
+      [
+        88.0,
+        20.0
+      ],
+      [
+        167.0,
+        40.0
+      ],
+      [
+        173.0,
+        40.0
+      ],
+      [
+        265.0,
+        80.0
+      ],
+      [
+        290.0,
+        80.0
+      ],
+      [
+        370.0,
+        160.0
+      ],
+      [
+        390.0,
+        160.0
+      ]
+    ],
+    "4.4.4.4": [
+      [
+        53.0,
+        20.0
+      ],
+      [
+        56.0,
+        20.0
+      ],
+      [
+        90.0,
+        40.0
+      ],
+      [
+        96.0,
+        40.0
+      ],
+      [
+        168.0,
+        80.0
+      ],
+      [
+        174.0,
+        80.0
+      ],
+      [
+        243.0,
+        160.0
+      ],
+      [
+        246.0,
+        160.0
+      ]
+    ],
+    "3.6.3.6": [
+      [
+        52.0,
+        40.0
+      ],
+      [
+        60.0,
+        40.0
+      ],
+      [
+        95.0,
+        80.0
+      ],
+      [
+        110.0,
+        80.0
+      ],
+      [
+        175.0,
+        160.0
+      ],
+      [
+        190.0,
+        160.0
+      ]
+    ]
+  },
+  "is_full_cross_product": false,
+  "clothing_designs": 17,
+  "sizes": [
+    "XXS",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL",
+    "4XL",
+    "5XL"
+  ],
+  "configurations_per_pattern": {
+    "3.3.3.3.3.3": 1360,
+    "4.4.4.4": 1360,
+    "3.6.3.6": 1020
+  },
+  "total_configurations": 3740
+}

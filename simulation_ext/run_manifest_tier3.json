@@ -1,0 +1,84 @@
+{
+  "run_name": "extended_wire_segment_length_run_2026",
+  "tag": "tier3",
+  "tier": 3,
+  "purpose": "Targeted frontier refinement. Locates the largest A meeting the 95% reachability requirement at J=160mm (bracketed by tier 1 between 206 and 249 mm), and tests the J=20 and J=40 mm rows of the selection table outside the original A grid, where they had never been examined.",
+  "seed": 20260914,
+  "id_base": 930000,
+  "id_overlap_note": "Tiers 1 and 2 both number from 900001; the pair (tag, experiment_id) is the unique key, and tag is recorded in every result file's _run_meta. Tier 3 numbers from 930001.",
+  "patterns": [
+    "3.3.3.3.3.3",
+    "4.4.4.4",
+    "3.6.3.6"
+  ],
+  "wire_jumper_pairs_mm": [
+    [
+      50.0,
+      20.0
+    ],
+    [
+      60.0,
+      20.0
+    ],
+    [
+      90.0,
+      20.0
+    ],
+    [
+      100.0,
+      20.0
+    ],
+    [
+      100.0,
+      40.0
+    ],
+    [
+      125.0,
+      40.0
+    ],
+    [
+      180.0,
+      40.0
+    ],
+    [
+      206.0,
+      40.0
+    ],
+    [
+      180.0,
+      80.0
+    ],
+    [
+      224.0,
+      80.0
+    ],
+    [
+      224.0,
+      160.0
+    ],
+    [
+      240.0,
+      160.0
+    ]
+  ],
+  "is_full_cross_product": false,
+  "clothing_designs": 17,
+  "sizes": [
+    "XXS",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL",
+    "4XL",
+    "5XL"
+  ],
+  "configurations_per_pattern": {
+    "3.3.3.3.3.3": 2040,
+    "4.4.4.4": 2040,
+    "3.6.3.6": 2040
+  },
+  "total_configurations": 6120
+}

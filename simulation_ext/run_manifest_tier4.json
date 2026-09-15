@@ -1,0 +1,74 @@
+{
+  "run_name": "extended_wire_segment_length_run_2026",
+  "tag": "tier4",
+  "tier": 4,
+  "purpose": "Tests the ten non-finalist patterns at wire segment lengths never covered by the original study (100, 125 and 206 mm). Establishes whether any non-finalist beats the revised J=160mm winner (4.4.4.4 at A~206mm), which the original screen over A<=160mm could not rule out.",
+  "seed": 20260914,
+  "id_base": 960000,
+  "id_note": "Tiers 1 and 2 numbered from 900001, tier 3 from 930001, tier 4 from 960001. The unique key across the whole study is (tag, experiment_id); tag is recorded in every result file.",
+  "patterns": [
+    "3.12.12",
+    "3.3.3.3.6",
+    "3.3.3.4.4",
+    "3.3.4.3.4",
+    "3.4.6.4",
+    "4.6.12",
+    "4.6.12.a",
+    "4.6.12.b",
+    "4.8.8",
+    "6.6.6"
+  ],
+  "wire_jumper_pairs_mm": [
+    [
+      100.0,
+      80.0
+    ],
+    [
+      125.0,
+      80.0
+    ],
+    [
+      206.0,
+      80.0
+    ],
+    [
+      100.0,
+      160.0
+    ],
+    [
+      125.0,
+      160.0
+    ],
+    [
+      206.0,
+      160.0
+    ]
+  ],
+  "is_full_cross_product": false,
+  "clothing_designs": 17,
+  "sizes": [
+    "XXS",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL",
+    "4XL",
+    "5XL"
+  ],
+  "configurations_per_pattern": {
+    "3.12.12": 1020,
+    "3.3.3.3.6": 1020,
+    "3.3.3.4.4": 1020,
+    "3.3.4.3.4": 1020,
+    "3.4.6.4": 1020,
+    "4.6.12": 1020,
+    "4.6.12.a": 1020,
+    "4.6.12.b": 1020,
+    "4.8.8": 1020,
+    "6.6.6": 1020
+  },
+  "total_configurations": 10200
+}
