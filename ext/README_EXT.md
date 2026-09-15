@@ -38,7 +38,7 @@ df = pd.concat([a, b], ignore_index=True)
 
 ## Tiers
 
-Seven batches, 38928 configurations, all at the original Monte Carlo depth of 100 sinks x 1000 sensors.
+Eight batches, 41988 configurations, all at the original Monte Carlo depth of 100 sinks x 1000 sensors.
 
 | tier | patterns | wire segment lengths | jumper lengths | configurations |
 |---|---|---|---|---|
@@ -49,6 +49,7 @@ Seven batches, 38928 configurations, all at the original Monte Carlo depth of 10
 | tier5 | 3 finalists | frontier bisection | 20–160 | 3740 |
 | tier5b | 3 finalists | frontier bisection, fine | 10, 20 | 1358 |
 | tier6 | 4.4.4.4 only | 165–198 mm | 80, 160 | 1190 |
+| tier7 | 6.6.6, 4.6.12.a | 50-145 mm| 20-160 | 3060 |
 
 * Tier5b actually had 1360 configurations but two of them could not be calculated due to small number limits in simulation 
 

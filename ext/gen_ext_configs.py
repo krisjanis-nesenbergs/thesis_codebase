@@ -112,7 +112,30 @@ TIERS = {
                   (170.0, 160.0), (180.0, 160.0), (190.0, 160.0), (198.0, 160.0)],
         "id_base": 995000,
         "seed": 20260915
+    },
+    "tier7": {
+        # The non-finalist patterns received only the coarse tier 4 sweep, while the three
+        # finalists were refined across tiers 3, 5 and 6. Comparing them on that basis would
+        # understate what the non-finalists can achieve. Wire consumed per unit coverage at a
+        # common cell separates the thirteen patterns into a group of five near the regular
+        # tilings and the rest well behind; of those five, only 6.6.6 and 4.6.12.a exceed the
+        # reachability requirement at that cell. This tier gives those two the same refinement
+        # around their frontiers that the finalists received.
+        "patterns": ["6.6.6", "4.6.12.a"],
+        "pairs": {
+            "6.6.6":    [(50.0, 20.0), (55.0, 20.0), (60.0, 20.0),
+                         (50.0, 40.0), (55.0, 40.0), (60.0, 40.0),
+                         (90.0, 80.0), (110.0, 80.0),
+                         (135.0, 160.0), (145.0, 160.0)],
+            "4.6.12.a": [(50.0, 20.0), (60.0, 20.0),
+                         (50.0, 40.0), (60.0, 40.0),
+                         (90.0, 80.0), (110.0, 80.0),
+                         (115.0, 160.0), (130.0, 160.0)]
+        },
+        "id_base": 996000,
+        "seed": 20260916
     }
+
 }
 
 
