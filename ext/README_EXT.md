@@ -14,10 +14,10 @@ which each pattern stops meeting the reachability requirement.
 
 ## Layout
 
-|                | initial run (2023) | extended run (2026)   |
-|----------------|--------------------|-----------------------|
-| configurations | `simulation/`      | `simulation_ext/`     |
-| results        | `results/`         | `results_ext/<tier>/` |
+| | initial run (2023) | extended run (2026) |
+|---|---|---|
+| configurations | `simulation/` | `simulation_ext/` |
+| results | `results/` | `results_ext/<tier>/` |
 | aggregated csv | `results/integrated_results.csv` | `results_ext/integrated_results_ext.csv` |
 | experiment IDs | 1 – 44200 | 900001 upward |
 | filename width | 5 digits | 7 digits |
@@ -38,7 +38,7 @@ df = pd.concat([a, b], ignore_index=True)
 
 ## Tiers
 
-Six batches, 37740 configurations, all at the original Monte Carlo depth of 100 sinks x 1000 sensors.
+Seven batches, 38928 configurations, all at the original Monte Carlo depth of 100 sinks x 1000 sensors.
 
 | tier | patterns | wire segment lengths | jumper lengths | configurations |
 |---|---|---|---|---|
@@ -47,9 +47,10 @@ Six batches, 37740 configurations, all at the original Monte Carlo depth of 100 
 | tier3 | 3 finalists | 50–240 mm, paired | 20–160 | 6120 |
 | tier4 | 10 non-finalists | 100, 125, 206 mm | 80, 160 | 10200 |
 | tier5 | 3 finalists | frontier bisection | 20–160 | 3740 |
-| tier5b | 3 finalists | frontier bisection, fine | 10, 20 | 1360 |
+| tier5b | 3 finalists | frontier bisection, fine | 10, 20 | 1358 |
+| tier6 | 4.4.4.4 only | 165–198 mm | 80, 160 | 1190 |
 
-NOTE - in tier5b 2 of the 1360 runs could not complete due to the grid being too small, leading to 1358 result files instead of 1360 for that and 37738 total configurations run instead of 37740 for the second run.
+* Tier5b actually had 1360 configurations but two of them could not be calculated due to small number limits in simulation 
 
 Exact pairs per tier are in `TIERS` in `gen_ext_configs.py` and in
 `simulation_ext/run_manifest_<tier>.json`.

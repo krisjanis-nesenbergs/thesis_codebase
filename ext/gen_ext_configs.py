@@ -102,6 +102,16 @@ TIERS = {
         },
         "id_base": 990000,
         "seed": 20260915
+    },
+    "tier6": {
+        # Closes the gap between 160 and 206 mm wire segment length, where the q = 90 %
+        # coverage frontier falls for both the 80 mm and 160 mm jumper lengths but no
+        # configuration had been simulated to verify it
+        "patterns": ["4.4.4.4"],
+        "pairs": [(165.0, 80.0), (170.0, 80.0), (176.0, 80.0),
+                  (170.0, 160.0), (180.0, 160.0), (190.0, 160.0), (198.0, 160.0)],
+        "id_base": 995000,
+        "seed": 20260915
     }
 }
 

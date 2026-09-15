@@ -33,7 +33,7 @@ import os
 
 import pandas as pd
 
-TIERS = ["tier1", "tier2", "tier3", "tier4", "tier5", "tier5b"]
+TIERS = ["tier1", "tier2", "tier3", "tier4", "tier5", "tier5b", "tier6"]
 
 # Column name and the expression producing it, taken from notebooks/aggregate.ipynb so that the
 # extended table matches the original one column for column.
